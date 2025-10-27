@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:rte="clr-namespace:Syncfusion.Maui.RichTextEditor;assembly=Syncfusion.Maui.RichTextEditor"
+             xmlns:local="clr-namespace:RichTextEditorSample"
+             x:Class="RichTextEditorSample.MainPage">
+
+    <rte:SfRichTextEditor DefaultFontFamily="Roboto Slab"
+                          DefaultFontSize="14"
+                          DefaultTextColor="Blue"
+                          Text="The &lt;b&gt; Rich Text Editor &lt;/b&gt; component is WYSIWYG editor that provides the best user experience to create and update the content">
+        <rte:SfRichTextEditor.ToolbarItems>
+            <rte:RichTextToolbarItem Type="Bold" />
+            <rte:RichTextToolbarItem Type="Italic" />
+            <rte:RichTextToolbarItem Type="Underline" />
+            <rte:RichTextToolbarItem Type="Separator" />
+            <rte:RichTextToolbarItem Type="NumberList" />
+            <rte:RichTextToolbarItem Type="BulletList" />
+            <rte:RichTextToolbarItem Type="Separator" />
+            <rte:RichTextToolbarItem Type="Hyperlink" />
+            <rte:RichTextToolbarItem Type="Image" />
+            <rte:RichTextToolbarItem Type="Table" />
+        </rte:SfRichTextEditor.ToolbarItems>
+    </rte:SfRichTextEditor>
+
+
+</ContentPage>

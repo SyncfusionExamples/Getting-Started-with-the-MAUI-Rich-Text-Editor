@@ -1,6 +1,6 @@
 # Getting-Started-with-the-MAUI-Rich-Text-Editor
 
-This sample demonstrates how to get started with the [.NET MAUI Rich Text Editor](https://www.syncfusion.com/maui-controls/maui-rich-text-editor?utm_source=github&utm_medium=listing&utm_campaign=maui-rich-text-editor-github-samples) in a .NET MAUI application.
+This sample demonstrates how to get started with the [.NET MAUI Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/maui-rich-text-editor?utm_source=github&utm_medium=listing&utm_campaign=maui-rich-text-editor-github-samples) in a .NET MAUI application.
 
 ## Sample
 

@@ -5,10 +5,8 @@ This sample demonstrates how to get started with the [.NET MAUI Rich Text Editor
 ## Sample
 
 ```xaml
-    <rte:SfRichTextEditor DefaultFontFamily="Roboto Slab"
-                          DefaultFontSize="14"
-                          DefaultTextColor="Blue"
-                          Text="The &lt;b&gt; Rich Text Editor &lt;/b&gt; component is WYSIWYG editor that provides the best user experience to create and update the content">
+    <rte:SfRichTextEditor TValue="HTML"
+                          Value="The &lt;b&gt; Rich Text Editor &lt;/b&gt; component is WYSIWYG editor that provides the best user experience to create and update the content">
         <rte:SfRichTextEditor.ToolbarItems>
             <rte:RichTextToolbarItem Type="Bold" />
             <rte:RichTextToolbarItem Type="Italic" />
